@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Feedback</title>
+    <link rel="icon" type="img" href="LogoBola/kantoloversbola2.png">
+    <link rel="stylesheet" href="FeedbackMobile.css">
+    <script src="FeedbackMobile.js" defer></script>
+
+    <!--FONTE API-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Pacifico&display=swap" rel="stylesheet">
+    <!--FONTE API-->
+</head>
+
+<body>
+    <h1>Feedback dos Kanto Lovers</h1>
+    <form action="#" method="post" class="form">
+        <label for="name">Nome</label>
+        <input type="text" name="nome" required id="Nome" placeholder="Insira seu nome!" required>
+
+        <label for="name">Email</label>
+        <input type="email" name="email"  id="email" size="10" placeholder="Insira seu email!" required>
+
+        <label for="feedback">Feedback</label>
+        <textarea name="mensagem" placeholder="Conte-nos sua experiencia!"  id="mensagem" rows="4" required></textarea>
+
+    
+        <button type="submit" value="Enviar Feedback">Send</button>
+        <button type="submit" value="Voltar" onclick="voltarMobile()">Voltar</button>
+   </form>
+</body>
+</html>
