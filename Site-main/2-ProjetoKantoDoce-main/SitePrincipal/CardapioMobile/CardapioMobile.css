@@ -1,0 +1,193 @@
+/* CSS do CARDAPIO*/
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #0186a753;
+}
+
+
+.cardapio {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+.cardapio h1 {
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    right: 18px;
+}
+
+.itens-cardapio {
+    width: 400px;
+    margin-top: -120px;
+    margin-bottom: 2rem;
+    margin-left: -30px;
+    display: grid;
+    grid-template-columns: repeat(3 , minmax(400px, 400px));
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Recursive', sans-serif;
+}
+
+
+
+.itens-cardapio .info {
+    background-color: #98fb987e;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    box-shadow: 8px 0px 4px 1px;
+    width: 350px;
+    height: 150px;
+}
+
+#descricao{
+    position: relative;
+    left: -138px;
+    top: -36px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: bold;
+}
+
+#descricao1{
+    position: relative;
+    left: -90px;
+    top: -36px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: bold;
+}
+
+#descricao2{
+    position: relative;
+    left: -143px;
+    top: -36px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: bold;
+}
+
+#descricao3{
+    position: relative;
+    left: -130px;
+    top: -36px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: bold;
+}
+
+#descricao4{
+    position: relative;
+    left: -150px;
+    top: -36px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: bold;
+}
+
+#descricao5{
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    left: -138px;
+    top: -26px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: bold;
+}
+
+#descricao6{
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    left: -110px;
+    top: -26px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: bold;
+}
+
+
+#valor{
+    color:#15505a;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+    position: relative;
+    left: -145px;
+    top: -30px;
+}
+
+.itens-cardapio .imgback {
+    background-color: #04473c;
+    box-shadow: 8px 0px 4px 1px;
+    width: 160px;
+    height: 198px;
+    position: relative;
+    left: 237px;
+    top: 198px
+}
+
+
+.itens-cardapio img {
+    width: 160px;
+    height: 198px;
+    position: relative;
+    top: 0px
+} /*IMAGENS CARDAPIO*/
+
+
+
+.itens-cardapio .info .pedir {
+    width: 200px;
+    height: 30px;
+    background-color: #ADD8E6;
+    border-radius: 7px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    color: black;
+    transition: all 200ms ease-in;
+    position: relative;
+    top: 9px;
+    right: 80px;
+    font-weight: bold;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Pacifico', cursive;
+} /*BOTÃO PEDIR AGORA*/
+
+.itens-cardapio .info .pedir:hover {
+    background-color: #25596b5e;
+    color: #000000;
+    box-shadow: 4px 4px 5px #0a3b3b92;
+    font-weight: bold;
+} /*AÇÃO APÓS O USUÁRIO PASSAR MOUSE*/
+
+.itens-cardapio .Andar{
+    margin-top: -195px;
+}
+
+#voltarMenu {
+    position: absolute;
+  top: 65px; /*distância do topo*/
+  left: 20px; /*distância da esquerda*/
+  padding: 10px 20px;
+  background-color: #00CED1;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Kenia', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
